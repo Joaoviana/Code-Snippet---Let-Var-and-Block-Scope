@@ -14,7 +14,6 @@ ___
 
 Language Features:
 * var 
-* if statements
 
 [TOP](#index)
 
@@ -23,12 +22,12 @@ ___
 ## Study Snippet
 
 ```js
-x = 1;
+innerer_var = 1;
 
-if (x === 1) {
-   x = 2;
+{
+   innerer_var = 2;
   {
-    var x = 3
+    var innerer_var = 3
   }
 }
 
