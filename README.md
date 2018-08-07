@@ -1,4 +1,4 @@
-# Code-Snippet Let Var and the Block Scope
+# Hoisting: Let Var and the Block Scope
 
 This code snippet covers hoisting characteristics of var declaration and assignment and their influences on different scopes.
 
