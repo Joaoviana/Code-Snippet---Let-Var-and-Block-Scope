@@ -1,12 +1,12 @@
-# Hoisting: Let Var and the Block Scope
+# Hoisting: Let, Var and the Block Scope
 
 This code snippet covers hoisting characteristics of var declaration and assignment and their influences on different scopes.
 
 ### Index
 * [Learning Objective](#learning-objective)
 * [Study Snippet](#study-snippet)
+* [Interesting Concepts](#interesting-concepts)
 * [Helpful Links](#helpful-links)
-* [More Practice](https://elewa-academy.github.io/12345-345)
 
 ___
 
@@ -76,12 +76,19 @@ let outer_let = 'defined';
 [TOP](#index)
 
 ___
+## Interesting Concepts
+Creation vs Execution phases:
+ * Creation phase is what happens before the first line is executed. Mostly just hoisting. You can see what happened in the creation phase, it's what PythonTutor displays before you click the forward button for the first time.
+ 
+ * Execution phase is everything that happens after the creation phase.
+ 
+ * Temporal dead zone:(see Vocab)
 
+___
 ## Helpful Links
 * Var: [MDNWebDocs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
 
 [TOP](#index)
-
 
 
 ___
